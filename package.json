@@ -1,5 +1,5 @@
 {
-  "name": "daterangepicker",
+  "name": "daterangepicker-peer-dependencies",
   "version": "3.0.5",
   "description": "Date range picker component for Bootstrap",
   "main": "daterangepicker.js",
@@ -21,8 +21,8 @@
     "url": "https://github.com/dangrossman/daterangepicker/issues"
   },
   "homepage": "https://github.com/dangrossman/daterangepicker",
-  "dependencies": {
-    "jquery": ">=1.10",
-    "moment": "^2.9.0"
+  "peerDependencies": {
+    "jquery": "*",
+    "moment": "*"
   }
 }
